@@ -58,9 +58,39 @@ As someone deeply interested in real-world economics and social policy, I was dr
 
 ---
 
+## 🔍 Visual Analysis Highlights
+
+Below are key visual outputs from the analysis, each contributing to different aspects of the investigation into UK housing affordability.
+
+---
+
+### 🧮 Correlation Heatmap
+
+![Correlation Heatmap](./figures/correlation_heatmap.png)
+
+_This heatmap illustrates the strength and direction of correlation among key macroeconomic variables. Strong red indicates positive correlation (e.g. GDP and HPI), while blue indicates a negative relationship. It helped assess multicollinearity before building regression models._
+
+---
+
+### 📈 ARIMA Forecast of House Prices
+
+![ARIMA Forecast](./figures/arima_forecast_hpi.png)
+
+_This ARIMA model projects the UK House Price Index (HPI) over the next five years. The shaded area represents the confidence interval, showing possible volatility. The forecast supports conclusions about long-term upward pressure on prices._
+
+---
+
+### 🔀 FEVD – Forecast Error Variance Decomposition
+
+![FEVD Contribution](./figures/fevd_contribution_hpi.png)
+
+_This plot shows how much each variable (Bank Rate, Debt, Permits, etc.) contributes to the forecast error in predicting HPI over time. It demonstrates that while HPI is largely self-driven initially, other factors begin to explain more of the variation as time progresses._
+
+---
+
 ## 🎓 Academic Context
 
-This was submitted as part of my BSc Economics degree at De Montfort University in 2025. The dissertation was supervised by [Supervisor’s Name, optional], and praised for its real-world relevance and rigorous approach.
+This was submitted as part of my BSc Economics degree at De Montfort University in 2025. 
 
 ---
 
